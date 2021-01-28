@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    margin: 0 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        border: 1px grey solid;
+    }
+
+    header #logo{
+        margin-left: 3%;
+        background-image: url("../img/logo.svg");
+        width: 150px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    } 
+
+    header nav{
+        display: flex;
+        align-items: center;
+        margin-right: 3%;
+    }
+
+    header nav ul{
+        display: flex;
+        
+
+
+    }
+
+    header nav ul li{
+        list-style-type: none;
+        padding: 10px;
+  
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        color: inherit;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+main{
+}
+
+main #home{
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+main #home #content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color:lightpink;
+}
+
+main #home #content div{
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+
+}
+main #home #content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+main #home #content p{
+    font-size: large;
+}
+main #home #content button{
+    margin: 20px 0px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: 1px grey solid;
+    font-size: large;
+
+}
+main #home #imagen{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main #home #imagen #svg{
+    background-color: lightgrey;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+    main #portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 600px;
+
+    }
+
+    main #portfolio #app, main #portfolio #web{
+        text-decoration: none;
+        color: inherit;
+        width: 30%;
+        height: auto;
+        margin:20px;
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid grey;
+        background-color: white;
+   
+    }
+
+    main #portfolio #app div{
+        width: 200px;
+        height:200px ;
+        background-color: lightgrey;
+        border-radius: 50%;
+   
+    }
+    main #portfolio #web div{
+        width: 200px;
+        height:200px ;
+        background-color: lightgrey;
+        border-radius: 50%;
+    }
+    main #portfolio #app h3, main #portfolio #web h3{
+    font-size: x-large ;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+
+main #deco{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+
+}
+
+main #deco #may{
+    width: 70%;
+    height: 100%;
+    background-color: lightpink;
+}
+main #deco #men{
+    width: 30%;
+    height: 100%;
+    background-color: lightseagreen;
+}
+
+main #about{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+
+main #about #webboot, main #about #datsc, main #about #med, main #about #mba{
+    text-decoration: none;
+    color: inherit;
+    width: 30%;
+    height: auto;
+    margin:50px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+main #about div{
+    margin:40px;
+
+}
+        main #contact{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 700px;
+            justify-content: center;
+        }
+
+        main #contact #contactimg{
+        display: none;
+        }
+
+
+        main #contact form{
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main #contact form input{
+            padding: 15px;
+            border-top: 1px solid grey; 
+            border-bottom: 1px solid grey; 
+            border-left:none ;
+            border-right:none ;
+
+            
+
+        }
+        main #contact form #message{
+            height: 200px;
+            box-sizing: border-box;
+            resize: none;
+            border-top: 1px solid grey; 
+            border-bottom: 1px solid grey; 
+            border-left:none ;
+            border-right:none ;
+            padding: 15px;
+
+        }
+        main #contact form h3{
+            font-family: 'Montserrat', sans-serif;
+            font-size: xx-large;
+            margin-left: 20px;
+
+        }
+        main #contact form label{
+            margin-left: 20px;
+            font-size: large;
+            padding: 5px;
+
+        }
+        main #contact form button{
+            right: 0;
+            margin: 40px 20px;
+            background-color: white;
+            width: 150px;
+            height: 40px;
+            border: 1px grey solid;
+            font-size: large;
+        }
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-top: 1px solid grey;
+    margin-top:10px ;
+    background-color:rgba(0, 0, 0, .7);
+    }
+
